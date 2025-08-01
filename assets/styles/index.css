@@ -1,0 +1,21 @@
+/* RESET DO CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,p {
+    text-align: center;
+}
+
+header {
+    background-color:  rgb(238, 98, 17);
+    color: white;
+    padding: 74px;
+
+}
+
