@@ -36,6 +36,7 @@ main {
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
+    margin-bottom: 40px;
 }
 
 #titulo-sobre-mim {
@@ -47,4 +48,41 @@ main {
 
 .texto-sobre-mim {
     font-size: 20px;
+}
+
+#meus-hobbies {
+    background-color: rgba(208, 203, 214, 0.986);
+    width: 80%;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+#titulo-meus-hobbies {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+ul {
+ list-style: none;
+ padding: 0;
+ display: flex;
+ gap: 16px;
+}
+
+li {
+    background-color: darkgray;
+    padding: 8px;
+    border-left: 4px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    min-width: 250px;
+}
+
+li:hover {
+background-color: rgb(129, 6, 6);
+transform: translateX(5px);
+transition: all 0.3s ease;
 }
