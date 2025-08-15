@@ -129,3 +129,15 @@ text-align: center;
     color: brown;
     transform: translate(-2px);
 }
+
+footer {
+    background-color:  rgb(233, 8, 38);
+    color: darkgray;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer p{
+    font-size: 2rem;
+}
